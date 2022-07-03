@@ -1,4 +1,4 @@
-# New Project
+# React Snowpack Boilerplate + Tailwind CSS
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
