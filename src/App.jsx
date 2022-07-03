@@ -12,7 +12,7 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <h1>Hello React!</h1>
+                <h1 className="text-3xl font-bold underline">Hello world!</h1>
                 <p>
                     This page has been opened for <code>{count}</code> seconds.
                 </p>
