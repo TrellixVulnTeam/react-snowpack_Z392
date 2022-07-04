@@ -23,6 +23,6 @@ export default {
         /* ... */
     },
     buildOptions: {
-        /* ... */
+        baseUrl: ".",
     },
 };
