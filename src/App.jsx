@@ -1,23 +1,19 @@
 import React, { useState, useEffect } from "react";
+import Card from "./components/Card";
+import Globe from "./images/globe.png";
 
 function App() {
-    // Create the count state.
-    const [count, setCount] = useState(0);
-    // Update the count (+1 every second).
-    useEffect(() => {
-        const timer = setTimeout(() => setCount(count + 1), 1000);
-        return () => clearTimeout(timer);
-    }, [count, setCount]);
-    // Return the App component.
     return (
-        <div className="App">
-            <header className="App-header">
-                <h1 className="text-3xl font-bold underline">Hello world!</h1>
-                <p>
-                    This page has been opened for <code>{count}</code> seconds.
-                </p>
-            </header>
-        </div>
+        <>
+            <div className="flex justify-center gap-2 py-3 bg-[#F55A5A]">
+                <img className="h-[25px]" src={Globe} />
+                <p className="text-white">my travel journal.</p>
+            </div>
+            <div className="px-10">
+                <Card />
+                <div className="shadow-[] mx-[0%] py-[30px] text-center"></div>
+            </div>
+        </>
     );
 }
 
