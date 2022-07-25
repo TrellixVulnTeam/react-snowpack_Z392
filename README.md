@@ -1,4 +1,4 @@
-# React Snowpack Boilerplate + Tailwind CSS
+# React Snowpack Boilerplate + Tailwind CSS + TypeScript
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
